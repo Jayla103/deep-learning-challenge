@@ -1,0 +1,7 @@
+The goal of this project was to build a binary classification model using deep learning to predict whether organizations applying for funding through Alphabet Soup would be successful. I worked with real-world data and went through several steps like cleaning, preprocessing, encoding categorical variables, scaling features, and building a neural network using TensorFlow. The main idea was to create a model that could help prioritize applications with the highest chance of approval, making the funding process more efficient and data-driven.
+
+For the data preprocessing stage, the target variable was IS_SUCCESSFUL, and all other relevant columns (after cleaning and encoding) were used as features. I removed non-essential identifier columns that didn’t contribute to the prediction process.
+
+The neural network model was built with two hidden layers — the first with 80 neurons and the second with 30 — both using ReLU activation. The output layer had one neuron and used a sigmoid activation function, since this was a binary classification problem.
+
+The model achieved about 67% accuracy and had a loss of around 84. I tried different approaches to improve performance, including additional data cleaning, dummy encoding, scaling the inputs, and adjusting the layer sizes and structure of the neural network.
